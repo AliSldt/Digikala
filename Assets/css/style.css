@@ -1,0 +1,26 @@
+/* home page */
+@import url(./common/header.css);
+@import url(./common/navigation.css);
+@import url(./common/footer.css);
+
+/* body of home page */
+@import url(./home/body/category.css);
+@import url(./home/body/amazing.css);
+@import url(./home/body/gridsection.css);
+@import url(./home/body/addressneed.css);
+@import url(./home/body/categorydetailed.css);
+@import url(./home/body/banner.css);
+@import url(./home/body/brands.css);
+@import url(./home/body/bestsell.css);
+/* style for scrollers all over the home page */
+@import url(./home/body/scrollers.css);
+
+
+/* styles for Amazing Page */
+@import url(./Amazing/amazingPage.css);
+@import url(./Amazing/AmazingEnding.css);
+@import url(./Amazing/AllAmazing.css);
+@import url(./Amazing/AmazingBanner.css);
+
+/* Global settings */
+@import url(./settings.css);

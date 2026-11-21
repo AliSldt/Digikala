@@ -1,0 +1,146 @@
+section.amazingPage {
+  width: 100%;
+  height: fit-content;
+  background-image:
+    url(https://www.digikala.com/statics/img/svg/amazing/deal-pattern.svg),
+    linear-gradient(#e6123d 0%, #c60c31 100%);
+  margin-top: 15px;
+  display: flex;
+  flex-flow: column nowrap;
+  padding: 8px 8px 8px 0;
+}
+div.amazingHeader{
+display: none;
+}
+section.amazingPage > div.heading {
+  display: flex;
+  justify-content: start;
+  gap: 10px;
+  padding-top: 10px;
+  height: 12%;
+}
+section.amazingPage > div.heading > span {
+font-size: 14px;
+font-weight: 700;
+color: white;
+}
+
+section.amazingPage > div.amazingPageSwiper div.swiper-slide{
+    background-color: white ;
+    border-radius: 10px ;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 18px 12px;
+    justify-content: space-between;
+}
+section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 90%;
+}
+section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info > div.productimage{
+    height: 40%;
+    border-radius: 7px;
+}
+section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info > div.productimage > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info > div.price > span{
+    display: flex;
+    height: 50px;
+    font-size: 11px;
+    font-weight: 700;
+}
+section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info > div.price > div.stars{
+    display: flex;
+    height: 25px;
+    font-size: 11px;
+    font-weight: 700;
+    justify-content: space-between;
+}
+section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info > div.price > div.stars > div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info > div.price > div.amount{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info > div.price > div.amount > span{
+    background-color: #D32F2F;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 15px;
+    display: flex;
+    width: 38px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info > div.price > div.amount > div.off{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+}
+section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info > div.price > div.amount > div.off > span:nth-of-type(1){
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info > div.price > div.amount > div.off > span:nth-of-type(2){
+    font-size: 11px;
+    font-weight: 400;
+    color: #c0c2c5;
+    text-decoration: line-through;
+}
+
+@media (min-width:1024px){
+    section.amazingPage {
+    width: 96%;
+    height: fit-content;
+    background-image:
+        url(https://www.digikala.com/statics/img/svg/amazing/deal-pattern.svg),
+        linear-gradient(#e6123d 0%, #c60c31 100%);
+    margin-top: 15px;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 8px 8px 8px 0;
+    margin: 15px auto;
+    border-radius: 15px;
+    }
+    section.amazingPage > div.amazingPageSwiper div.swiper-slide{
+        height: 260px;
+    }
+     section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.header{
+        width: 100%;
+        display: flex;
+        justify-content: start;
+     }
+    section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info > div.price {
+        width: 45%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+}
+    section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    height: 90%;
+    gap: 15px;
+    }
+    section.amazingPage > div.amazingPageSwiper div.swiper-slide > div.info > div.productimage{
+        height: 100%;
+        width: 55%;
+        border-radius: 7px;
+    }
+}

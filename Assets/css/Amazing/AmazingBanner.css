@@ -1,0 +1,86 @@
+section.amazingBanner{
+    width: 94%;
+    height: 170px;
+    background-image: url(https://www.digikala.com/statics/img/svg/typography/freshPattern.svg);
+    background-color: rgba(2, 169, 2, 0.037);
+    border-radius: 10px;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+}
+section.amazingBanner.red{
+background-image: unset;
+background: linear-gradient(to right , rgba(255, 0, 0, 0.022) , rgba(255, 0, 0, 0.103));
+}
+section.amazingBanner > div.name{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    gap: 10px;
+    padding: 20px 15px 0 0 ;
+    width: 100%;
+    height: 49%;
+}
+section.amazingBanner > div.name > div{
+    display: flex;
+    align-items: center;
+
+    gap: 15px;
+}
+section.amazingBanner > div.name > button{
+    width: 100px;
+    height: 30px;
+    background-color: #029A49;
+    border-radius: 15px;
+    border: unset;
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+}
+section.amazingBanner > div.cards{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 49%;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+section.amazingBanner > div.cards > div > a.item{
+    display: inline-block;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: white;
+    padding:10px;
+    margin:10px;
+}
+section.amazingBanner > div.cards > div > a.item > img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+section.amazingBanner > div.cards > button{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    border: unset;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width:1024px){
+    section.amazingBanner{
+    height: 120px;
+    display: flex;
+    flex-flow: row nowrap;
+}
+section.amazingBanner > div.cards{
+    height: 100%;
+    justify-content: end;
+    gap:50px;
+}
+}

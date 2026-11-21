@@ -1,0 +1,100 @@
+section.Hotbestsell {
+  width: 100%;
+  max-width: 1335px;
+  height: 325px;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: start;
+  padding: 20px 10px 10px 10px;
+  margin:0 auto;
+}
+section.Hotbestsell > span {
+  font-size: 16px;
+  font-weight: 700;
+  color: #1f1f1f;
+  margin: 11px 0;
+}
+section.Hotbestsell > div.bestsellCarts {
+  padding-right: 10px;
+}
+section.Hotbestsell > div.bestsellCarts .swiper-slide {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-around;
+  background-color: white;
+}
+section.Hotbestsell > div.bestsellCarts .swiper-slide div.cart {
+  width: 100%;
+  height: 30%;
+  border: 1px solid silver;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+}
+section.Hotbestsell > div.bestsellCarts .swiper-slide div.cart > div.image {
+  min-width: 72px;
+  max-width: 72px;
+  height: 100%;
+  border-radius: 10px;
+}
+section.Hotbestsell
+  > div.bestsellCarts
+  .swiper-slide
+  div.cart
+  > div.image
+  > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+section.Hotbestsell > div.bestsellCarts .swiper-slide div.cart > span.info {
+  padding: 10px;
+  font-size: 11px;
+  font-weight: 400;
+}
+section.Hotbestsell
+  > div.bestsellCarts
+  .swiper-slide
+  div.cart
+  > span.info
+  > span {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 800;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #ef4056;
+  line-height: 25px;
+  color: white;
+}
+@media (min-width: 1024px) {
+  section.Hotbestsell {
+    width: 96%;
+    margin: 20px auto;
+    height: 400px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+    padding: 20px;
+    border: 1px solid silver;
+    border-radius: 10px;
+  }
+  section.Hotbestsell > span {
+  font-size: 20px;
+}
+  section.Hotbestsell > div.bestsellCarts .swiper-slide div.cart {
+  width: 100%;
+  height: 30%;
+  border: none;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+}
+}

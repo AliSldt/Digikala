@@ -1,0 +1,135 @@
+section.AmazingESOffer {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 100%;
+  padding: 0 20px 0 0;
+  height: 420px;
+}
+section.AmazingESOffer > div.heading {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: start;
+  align-items: center;
+  gap: 10px;
+  position: relative;
+  width: 100%;
+  height: 15%;
+}
+section.AmazingESOffer > div.heading > span {
+  font-size: 14px;
+  font-weight: 700;
+  color: #0c0c0c;
+}
+section.AmazingESOffer > div.heading::before {
+  content: "";
+  position: absolute;
+  bottom: 10px;
+  right: 0;
+  width: 78px;
+  height: 2px;
+  background-color: #ef394e;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper{
+    width: 100%;
+    height: 84%;
+}
+
+
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide{
+    background-color: white ;
+    border-radius: 10px ;
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 18px 12px;
+    justify-content: space-between;
+    border-left: 1px solid #f0f0f1;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide:nth-last-of-type(1){
+    border-left: none;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide > div.info{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    height: 90%;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide > div.info > div.productimage{
+    height: 40%;
+    border-radius: 7px;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide > div.info > div.productimage > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 7px;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide > div.info > div.price > span{
+    display: flex;
+    height: 50px;
+    font-size: 11px;
+    font-weight: 700;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide > div.info > div.price > div.stars{
+    display: flex;
+    height: 25px;
+    font-size: 11px;
+    font-weight: 700;
+    justify-content: space-between;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide > div.info > div.price > div.stars > div{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide > div.info > div.price > div.amount{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide > div.info > div.price > div.amount > span{
+    background-color: #D32F2F;
+    color: white;
+    font-size: 11px;
+    font-weight: 700;
+    border-radius: 15px;
+    display: flex;
+    width: 38px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide > div.info > div.price > div.amount > div.off{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: start;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide > div.info > div.price > div.amount > div.off > span:nth-of-type(1){
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide > div.info > div.price > div.amount > div.off > span:nth-of-type(2){
+    font-size: 11px;
+    font-weight: 400;
+    color: #c0c2c5;
+    text-decoration: line-through;
+}
+
+@media (min-width:1024px){
+    section.AmazingESOffer {
+        display: flex;
+        flex-flow: column nowrap;
+        width: 96%;
+        margin: 15px auto;
+        padding: 0 20px 0 0;
+        height: 420px;
+        border: 1px solid rgba(192, 192, 192, 0.333);
+        border-radius: 15px;
+    }
+    section.AmazingESOffer > div.AmazingEndingSwiper div.swiper-slide > div.info > div.productimage {
+        height: 55%;
+        border-radius: 7px;
+    }
+}

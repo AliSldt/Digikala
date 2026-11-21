@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+    font-family: digikala;
+}
+
+@font-face {
+    font-family: digikala;
+    src: url(../fonts/digikala-variable.16j_2qc1xkb87.woff2);
+}
+
+:root {
+  --color-neutral-500: #81858b;
+  --color-neutral-900: #0c0c0c;
+  --color-neutral-650: #424242;
+  --color-neutral-300: #c0c2c5;
+  --color-neutral-800: #23254e;
+}
+
+/* swipper setting */
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #444;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* For displaying none for the mobile only parts */
+
+@media (min-width:1024px){
+  .mobileOnly{
+    display: none !important;
+  }
+}
